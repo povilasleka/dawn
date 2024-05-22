@@ -22,4 +22,4 @@ jobs:
           # Password generated from Theme Access app
           SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}
           SHOPIFY_CLI_TTY: 0
-        run: shopify theme push --path ./src --theme Dawn
+        run: shopify theme push --path ./src --theme Dawn -f
